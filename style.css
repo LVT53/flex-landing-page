@@ -7,4 +7,43 @@ body {
     font-style: normal;
     font-variation-settings:
     "wdth" 100;
+    margin: 0;
+}
+
+section.dark-grey,
+footer {
+    background-color: #1F2937;
+}
+
+section.dark-grey ul {
+
+}
+
+section.dark-grey li {
+
+}
+
+section.grey {
+    background-color: #E5E7EB;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+footer .container p {
+    text-align: center;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
 }
