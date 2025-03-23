@@ -77,7 +77,7 @@ button {
     color: #f9faf8;
     padding: 8px 25px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 18px;
     font-weight: 900;
 }
@@ -93,8 +93,36 @@ h1 {
     margin: 0 0 15px 0;
 }
 
-h2 {
+section.second {
+    padding: 60px 0;
+}
 
+h2 {
+    margin: 0 0 50px;
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.boxes p {
+    opacity: 75%;
+}
+
+.blue-box {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: solid 3px #3882f6;
 }
 
 h3 {
